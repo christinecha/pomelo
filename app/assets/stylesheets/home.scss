@@ -34,29 +34,50 @@
     h1 { color: #fff; }
   }
 
-  .service-logos {
-    padding: 20px 0;
+  .services {
     text-align: center;
-    img { width: 20%; max-width: 150px; }
+    max-width: 650px;
+    padding: 100px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #888;
+    i {
+      color: #ddd;
+      font-size: 50px;
+      margin: 5px;
+    }
   }
 
-  .contact {
-    background-color: #888;
-    color: #fff;
-    letter-spacing: .05;
-    padding: 50px;
+  .column1, .column2, .column3 {
+    height: 200px;
+    text-align: center;
+    h1, h3 { margin-top: 82px; }
   }
 
-  .email {
-    text-align: center;
+  .column1 {
     background-color: #61c7cd;
     color: #fff !important;
+    @media (max-width: 1140px) {
+      h1 { font-size: 30px; }
+    }
   }
 
-  .email:hover {
+  .column1:hover {
     background-color: #99cc66;
     text-decoration: none !important;
     color: #fff !important;
+  }
+
+  .column2 {
+    color: #ccc;
+    background-color: #eee;
+    h3 {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-top: 85px;
+    }
+    h3:hover { color: #61c7cd; }
   }
 
 }

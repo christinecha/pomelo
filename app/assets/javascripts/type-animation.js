@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $("#type-animation").typed({
-    strings: ["impress", "wow", "sell", "excite"],
+    strings: ["stunning.", "impressive.", "dynamic.", "life-changing."],
     typeSpeed: 30,
     backSpeed: 30,
     backDelay: 1000,
