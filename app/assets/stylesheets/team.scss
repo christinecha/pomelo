@@ -1,0 +1,46 @@
+.team {
+
+  .cover {
+    background-image: url('desk.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: #444;
+    h1 {
+      margin-top: 200px;
+      font-weight: bold;
+    }
+    h1, p {
+      width: 90%;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .leadership {
+    text-align: center;
+    margin: 50px 0;
+    color: #888;
+    h2 { font-weight: 100; }
+    h4 { font-size: 12px; }
+    img {
+      max-width: 300px;
+    }
+    .socicon { font-size: 20px; color: #ddd; margin: 0 2px; }
+    .socicon:hover { color: #61c7cd; }
+  }
+
+  .talent-network {
+    text-align: center;
+    text-transform: uppercase;
+    color: #61c7cd;
+    margin-bottom: 50px; 
+    h2 { font-weight: 200; }
+    p { font-size: 14px; }
+  }
+
+
+}
