@@ -1,0 +1,44 @@
+.services {
+
+  .from-wireframes {
+    height: 300px;
+    padding: 130px;
+    background-image: url('whiteboard.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+      color: #888;
+    }
+    @media (max-width:600px){
+      text-align: center;
+      padding: 130px 10px;
+    }
+  }
+
+  .to-design {
+    height: 200px;
+    padding: 60px 0;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    i { margin: 0 20px; font-size: 90%;}
+  }
+
+  .and-development {
+    height: 300px;
+    padding: 85px;
+    background-image: url('computer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: right;
+    i { font-size: 40px; margin: 5px; }
+    @media (max-width:600px){
+      text-align: center;
+      padding: 35px 50px;
+    }
+  }
+
+}
