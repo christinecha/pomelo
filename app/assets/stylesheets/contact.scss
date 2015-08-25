@@ -1,0 +1,20 @@
+.contact {
+
+  .column1 {
+    height: 100vh;
+    line-height: 500px;
+    text-align: center;
+    background-color: #61c7cd;
+    color: #fff !important;
+    padding-top: 200px;
+    @media (max-width: 1140px) {
+      h1 { font-size: 30px;}
+    }
+  }
+
+  .column1:hover {
+    background-color: #99cc66;
+    text-decoration: none !important;
+    color: #fff !important;
+  }
+}
